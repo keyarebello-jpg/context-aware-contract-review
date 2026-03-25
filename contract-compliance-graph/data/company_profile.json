@@ -1,0 +1,87 @@
+{{
+    "name": "EuroFlow Infrastructure GmbH",
+    "primary_jurisdiction": "European Union (Germany)",
+    "jurisdictions": [
+      "EU",
+      "Germany",
+      "Netherlands",
+      "France"
+    ],
+    "sector": "Fintech Infrastructure",
+    "activities": [
+      "payment initiation",
+      "account-to-account payment routing",
+      "open banking API aggregation",
+      "fraud detection",
+      "identity verification",
+      "cross-border settlement",
+      "data-sharing infrastructure"
+    ],
+    "technology_profile": {
+      "uses_ai": true,
+      "ai_risk_category": "medium_risk",
+      "processes_personal_data": true,
+      "cross_border_data_transfer": true
+    },
+    "uses_ai": true,
+    "ai_risk_category": "medium_risk",
+    "processes_personal_data": true,
+    "cross_border_data_transfer": true,
+    "public_procurement": true,
+    "third_party_dependencies": true,
+    "regulatory_exposure": {
+      "GDPR": true,
+      "PSD2": true,
+      "DORA": true,
+      "AML_KYC": true,
+      "Cross_Border_Data_Transfer": true,
+      "Public_Procurement": true
+    },
+    "risk_flags": {
+      "cross_border_operations": true,
+      "high_volume_sensitive_data": true,
+      "third_party_dependencies": true,
+      "public_sector_clients": true,
+      "operational_criticality": true
+    }
+    
+  "name": "EuroFlow Infrastructure GmbH",
+  "primary_jurisdiction": "European Union (Germany)",
+  "jurisdictions": [
+    "EU",
+    "Germany",
+    "Netherlands",
+    "France"
+  ],
+  "sector": "Fintech Infrastructure",
+  "activities": [
+    "payment initiation",
+    "account-to-account payment routing",
+    "open banking API aggregation",
+    "fraud detection",
+    "identity verification",
+    "cross-border settlement",
+    "data-sharing infrastructure"
+  ],
+  "technology_profile": {
+    "uses_ai": true,
+    "ai_risk_category": "medium_risk",
+    "processes_personal_data": true,
+    "cross_border_data_transfer": true
+  },
+  "regulatory_exposure": {
+    "GDPR": true,
+    "PSD2": true,
+    "DORA": true,
+    "AML_KYC": true,
+    "Cross_Border_Data_Transfer": true,
+    "Public_Procurement": true
+  },
+  "risk_flags": {
+    "cross_border_operations": true,
+    "high_volume_sensitive_data": true,
+    "third_party_dependencies": true,
+    "public_sector_clients": true,
+    "operational_criticality": true
+  }
+}

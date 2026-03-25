@@ -1,0 +1,59 @@
+{
+  "contract_id": "CTR-2026-004",
+  "title": "Public Finance Payment Infrastructure Services Agreement",
+  "jurisdiction": "European Union (Germany)",
+  "parties": {
+    "client": "European Public Treasury Authority",
+    "vendor": "EuroFlow Infrastructure GmbH"
+  },
+  "clauses": [
+    {
+      "id": "C1",
+      "type": "scope_of_services",
+      "title": "Scope of Services",
+      "text": "The vendor will provide payment infrastructure services, including transaction routing, payment initiation support, reconciliation tools, and related technical support services."
+    },
+    {
+      "id": "C2",
+      "type": "data_processing",
+      "title": "Data Processing",
+      "text": "The vendor may process financial and personal data to the extent necessary for performance of the services and will comply with applicable data protection law."
+    },
+    {
+      "id": "C3",
+      "type": "fees_and_payment",
+      "title": "Fees and Payment",
+      "text": "The authority will pay the vendor the agreed service fees in accordance with the pricing schedule set out in the commercial annex."
+    },
+    {
+      "id": "C4",
+      "type": "confidentiality",
+      "title": "Confidentiality",
+      "text": "Each party will keep confidential all non-public business, technical, and financial information received from the other party and will not disclose such information except as required by law."
+    },
+    {
+      "id": "C5",
+      "type": "liability",
+      "title": "Liability",
+      "text": "The vendor’s liability under this agreement is limited to direct losses and capped at the total fees paid under the agreement in the twelve months preceding the relevant claim."
+    },
+    {
+      "id": "C6",
+      "type": "service_availability",
+      "title": "Service Availability",
+      "text": "The vendor will use commercially reasonable efforts to maintain availability of the payment infrastructure services and provide notice of material service interruptions."
+    },
+    {
+      "id": "C7",
+      "type": "termination",
+      "title": "Termination",
+      "text": "Either party may terminate the agreement for material breach if such breach is not remedied within thirty days of written notice."
+    },
+    {
+      "id": "C8",
+      "type": "intellectual_property",
+      "title": "Intellectual Property",
+      "text": "All intellectual property rights in the vendor’s systems, software, documentation, and underlying infrastructure remain vested in the vendor."
+    }
+  ]
+}

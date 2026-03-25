@@ -1,0 +1,171 @@
+{
+  "rules": [
+    {
+      "rule_id": "GDPR-01",
+      "name": "Data Processing Agreement",
+      "regulation": "GDPR Article 28",
+      "trigger_conditions": {
+        "processes_personal_data": [
+          true
+        ]
+      },
+      "required_clause_types": [
+        "data_processing_agreement",
+        "data_processing"
+      ],
+      "required_keywords": [
+        "data processing agreement",
+        "article 28",
+        "processor",
+        "controller"
+      ],
+      "severity": "high",
+      "explanation": "Where personal data is processed for service delivery, the contract should contain structured data processing obligations consistent with GDPR Article 28."
+    },
+    {
+      "rule_id": "GDPR-02",
+      "name": "Data Subject Rights and Breach Support",
+      "regulation": "GDPR Articles 15 to 22 and 33",
+      "trigger_conditions": {
+        "processes_personal_data": [
+          true
+        ],
+        "cross_border_data_transfer": [
+          true
+        ]
+      },
+      "required_clause_types": [
+        "data_subject_rights",
+        "breach_notification"
+      ],
+      "required_keywords": [
+        "data subject rights",
+        "breach notification",
+        "erasure",
+        "access request"
+      ],
+      "severity": "high",
+      "explanation": "The contract should address support for data subject rights and timely breach notification where personal data is processed across jurisdictions."
+    },
+    {
+      "rule_id": "PSD2-01",
+      "name": "Payment Security and Authentication",
+      "regulation": "PSD2",
+      "trigger_conditions": {
+        "activities": [
+          "payment initiation",
+          "account-to-account payment routing",
+          "open banking API aggregation"
+        ]
+      },
+      "required_clause_types": [
+        "security",
+        "authentication",
+        "liability"
+      ],
+      "required_keywords": [
+        "security",
+        "authentication",
+        "unauthorised transaction",
+        "payment initiation"
+      ],
+      "severity": "high",
+      "explanation": "Payment infrastructure contracts should allocate security and authentication responsibilities for regulated payment activity."
+    },
+    {
+      "rule_id": "DORA-01",
+      "name": "Operational Resilience and Incident Management",
+      "regulation": "DORA",
+      "trigger_conditions": {
+        "sector": [
+          "Fintech Infrastructure"
+        ],
+        "activities": [
+          "payment initiation",
+          "cross-border settlement",
+          "data-sharing infrastructure"
+        ]
+      },
+      "required_clause_types": [
+        "service_availability",
+        "incident_notification",
+        "business_continuity"
+      ],
+      "required_keywords": [
+        "incident",
+        "service availability",
+        "business continuity",
+        "disaster recovery"
+      ],
+      "severity": "critical",
+      "explanation": "Critical digital infrastructure contracts should include resilience, continuity, and incident-management obligations."
+    },
+    {
+      "rule_id": "AML-01",
+      "name": "KYC and Transaction Monitoring Cooperation",
+      "regulation": "AML / KYC Requirements",
+      "trigger_conditions": {
+        "activities": [
+          "fraud detection",
+          "identity verification"
+        ]
+      },
+      "required_clause_types": [
+        "regulatory_cooperation",
+        "record_keeping"
+      ],
+      "required_keywords": [
+        "cooperate",
+        "record keeping",
+        "identity verification",
+        "transaction monitoring"
+      ],
+      "severity": "medium",
+      "explanation": "Where services include fraud monitoring and identity controls, the contract should support regulatory cooperation and records management."
+    },
+    {
+      "rule_id": "PROC-01",
+      "name": "Public Authority Audit Rights",
+      "regulation": "Public Procurement / Public Finance Controls",
+      "trigger_conditions": {
+        "regulatory_exposure.Public_Procurement": [
+          true
+        ]
+      },
+      "required_clause_types": [
+        "audit_rights",
+        "regulatory_cooperation"
+      ],
+      "required_keywords": [
+        "audit",
+        "inspect records",
+        "regulator",
+        "supervisory body"
+      ],
+      "severity": "critical",
+      "explanation": "Where infrastructure is provided to a public authority, the contract should include audit and cooperation mechanisms."
+    },
+    {
+      "rule_id": "OUT-01",
+      "name": "Subcontracting and Third-Party Controls",
+      "regulation": "Outsourcing and Third-Party Risk Standards",
+      "trigger_conditions": {
+        "risk_flags.third_party_dependencies": [
+          true
+        ]
+      },
+      "required_clause_types": [
+        "subcontracting",
+        "audit_rights"
+      ],
+      "required_keywords": [
+        "subcontractor",
+        "third party",
+        "flow-down",
+        "consent"
+      ],
+      "severity": "high",
+      "explanation": "Where delivery depends on third parties, the contract should control subcontracting and preserve visibility over outsourced functions."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Contract Compliance Graph
 
-> Built as a prototype for Legal Engineer roles to demonstrate contract-aware, context-driven compliance systems.
+> Built as a prototype to demonstrate contract-aware, context-driven compliance systems.
 
 > A rule-based compliance analysis system that reads a contract, maps it against company context and regulatory obligations, and surfaces gaps before they become liabilities.
 
